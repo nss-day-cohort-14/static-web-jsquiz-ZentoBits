@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	font-family: Arial;
+	text-align: center;
+	color: #e5b030;
+	background: radial-gradient(black, #1a1a1a, grey);
+	margin: 0;
+	font-family: 'Exo 2', sans-serif;
+}
+
+p {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.char {
+	position: relative;
+	left: 507px;
+	font-size: 20px;
+	border: 1px solid lightgrey;
+	width: 146px;
+	padding-left: 56px;
+	margin: 10px 0;
+	background: radial-gradient(black, #1a1a1a 60%, slategrey);
+	color: #e5b030;
+}
+
+.hite {
+	position: relative;
+	left: 710px;
+	font-size: 20px;
+	bottom: 252px;
+	border: 1px solid lightgrey;
+	width: 136px;
+	padding-left: 66px;
+	margin: 10px 0;
+	background: radial-gradient(black, #1a1a1a 60%, slategrey);
+	color: #e5b030;
+}
+
+input:nth-child(2) {
+	height: 200px;
+	width: 200px;
+	font-size: 110px;
+	text-align: center;
+	outline: none;
+	font-family: 'Exo 2', sans-serif;
+	position: relative;
+	left: 505px;
+	background: #1a1a1a;
+	color: #e5b030;
+}
+
+input:nth-child(4) {
+	height: 200px;
+	width: 200px;
+	font-size: 110px;
+	text-align: center;
+	outline: none;
+	font-family: 'Exo 2', sans-serif;
+	position: relative;
+	left: 710px;
+	bottom: 252px;
+	background: #1a1a1a;
+	color: #e5b030;
+}
+
+button {
+	position: relative;
+	height: 100px;
+	width: 410px;
+	left: 505px;
+	bottom: 240px;
+	border-radius: 6px;
+	outline: none;
+	background: #1a1a1a;
+	font-size: 30px;
+	font-family: 'Exo 2', sans-serif;
+	color: #e5b030;
+}
+
+.colorBack {
+	background: linear-gradient( to top right, #0099CC, #7FFFD4);
+	padding-top: 80px;
+	position: relative;
+	border-bottom: 40px solid #1a1a1a;
+}
+
+hr {
+	margin: 0;
+}
+
+input:focus {
+	animation-name: left-bar;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes left-bar {
+	0%		{background: #1a1a1a;}
+	100%	{background: rgba(0, 0, 0, .65);}
+}
+
+button:focus {
+	animation-name: clear-button;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes clear-button {
+	0%		{background: #1a1a1a;}
+	100%	{background: rgba(0, 0, 0, .65);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
