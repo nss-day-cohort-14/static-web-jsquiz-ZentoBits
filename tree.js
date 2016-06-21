@@ -1,3 +1,4 @@
+///////// retrieves button element //////////
 var butt = document.getElementById("buttPress");
 
 
